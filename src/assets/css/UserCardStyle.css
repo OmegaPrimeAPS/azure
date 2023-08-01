@@ -1,0 +1,89 @@
+.card{
+    width: auto;
+    height: auto;
+    background: #F8F8F9;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 0px #847D7D;
+    display: center;
+
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #001866;
+}
+
+.card-header .span{
+    margin-left:.3em ;
+    color: #847D7D;
+}
+
+.img{
+    max-width: 100px;
+}
+.form-group .form-control{
+    background: #003CFF;
+    width: 150px;
+    height: 31px;
+    color: #fff;
+    float: left;
+    border-radius: 5px;
+    border: none;
+}
+
+.line-vertical {
+    position: absolute;
+    padding-left: 30px; /* Espacio para el contenido antes de la línea */
+    margin: 20px 0;
+    background: #847D7D;
+  }
+  .line-vertical::before {
+
+    
+    top: 0;
+    left: 15px; /* Posición de la línea vertical */
+    width: 2px;
+    height: 100%;
+    background-color: #000; /* Color de la línea */
+  }
+  .row1{
+    
+    padding-top: .7rem;
+    
+  }
+ .col1 label{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #847D7D;
+  }
+ .col1 p{
+    font-weight: bold;
+    font-size: 8.rem;
+  }
+  .col2{
+
+    padding-top: .7rem;
+    float: right;
+    
+  }
+.col2 label{
+    color: #e6e3e3;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #847D7D;
+  }
+.col2 p{
+    font-weight: bold;
+    font-size: 8.rem;
+  }
+   
+.row1 .container{
+    background: #e6e3e3;
+    border-radius: 5px;
+  }
+.card .btn{
+    float: right;
+    width: 150px;
+    justify-content: space-between;
+  }
